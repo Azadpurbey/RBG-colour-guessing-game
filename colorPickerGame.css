@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(128, 114, 114);
+}
+.head1{
+    text-align: center;
+    background-color: aquamarine;
+}
+.head2{
+    text-align: center;
+    background-color: whitesmoke;
+}
+.space{
+    margin: 2%;
+    text-decoration: none;
+}
+.button:hover {
+    color: rgb(44, 189, 51);
+    cursor: pointer;
+  }
+
+
+.square{
+   width: 30%;
+   background: rgb(128, 114, 114);
+   margin: 1.66%;
+   float: right;
+   padding-bottom: 30%;
+   border-radius: 20%;
+}
+.container{
+    width:40%;
+    margin:4% auto;
+}
