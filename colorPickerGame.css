@@ -1,13 +1,26 @@
 body{
     background-color: rgb(128, 114, 114);
+    margin: 0;
+    padding: 0;
 }
+
 .head1{
     text-align: center;
     background-color: aquamarine;
 }
+.head1 h2{
+    margin:0px auto;
+}
 .head2{
     text-align: center;
     background-color: whitesmoke;
+    padding:10px;
+}
+#status{
+    font-weight: 600;
+}
+.button{
+    color:rgb(85, 45, 0);
 }
 .space{
     margin: 2%;
@@ -30,4 +43,14 @@ body{
 .container{
     width:40%;
     margin:4% auto;
+}
+
+@media (max-width: 600px) {
+    .container{
+        width:90%;
+        margin:35% auto;
+    }
+    .square{
+     
+     }
 }

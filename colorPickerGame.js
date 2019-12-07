@@ -1,4 +1,4 @@
-var number=3
+var number=6
 var colors=generateColor(number)
 var currentColor=pickColor(number)
 
